@@ -12,6 +12,7 @@ exports.up = function (knex) {
             .references("theater_id")
             .inTable("theaters");
         table.boolean("is_showing");
+        table.timestamps(true, true);
     });
 };
 
