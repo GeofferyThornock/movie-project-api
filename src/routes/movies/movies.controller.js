@@ -1,4 +1,4 @@
-const service = require("./movies.services");
+const service = require("./movies.service");
 
 //validation handlers
 async function movieExists(req, res, next) {
