@@ -9,7 +9,7 @@ An api for movies that are currently showing in a local area
 ### Get all movies
 
 ```http
-  GET /movies
+GET /movies
 ```
 
 Response should be
@@ -33,7 +33,7 @@ Response should be
 ### Get movie
 
 ```http
-  GET /movies/${id}
+GET /movies/${id}
 ```
 
 | Parameter | Type     | Description                       |
