@@ -87,7 +87,7 @@ The response from the server should look like the following.
 ### Destroy review
 This route will delete a review by ID. If the ID is incorrect, a 404 will be returned.
 
-```html
+```http
 DELETE /reviews/${id}
 ```
 
@@ -102,7 +102,7 @@ The server should respond with 204 No Content.
 
 This route will allow you to partially or fully update a review. If the ID is incorrect, a 404 will be returned.
 
-```html
+```http
 UPDATE /reviews/:reviewId
 ```
 
